@@ -1,0 +1,74 @@
+body {
+  font-family: "Inter";
+  font-style: italic;
+}
+body .hero {
+  background-image: url(../images/background-hero.png);
+}
+body .solucao {
+  background-image: url(../images/background-solucao.png);
+}
+body .pros-contras {
+  background-image: url(../images/background-prosContras.png);
+}
+body .text-principal {
+  color: #61E786;
+}
+body .text-secundario {
+  color: #EDFFEC;
+}
+body .bg-green {
+  background-color: #61E786;
+}
+body .bg-cinza {
+  background: #48435C;
+}
+body .bg-roxo {
+  background: #9792E3;
+}
+body hr {
+  border: 2px solid #61E786;
+}
+body .background-image {
+  background-color: #282121;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+body #novidades {
+  height: 80vh;
+}
+body #confirmar {
+  min-width: 50%;
+}
+body #problema {
+  height: 100vh;
+}
+body form {
+  border: 2px solid #61E786;
+}
+body form .dados input {
+  background-color: #48435C;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #61E786;
+  color: #61E786;
+}
+body form h2 {
+  border-bottom: 3px solid #61E786;
+}
+body form .dados input::-webkit-input-placeholder {
+  color: #61E786;
+}
+body footer {
+  height: 20vh;
+}
+@media (max-width: 768px) {
+  body .image-app {
+    max-width: 50%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

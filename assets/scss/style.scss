@@ -1,0 +1,90 @@
+body {
+    font-family: "Inter";
+    font-style: italic;
+    .hero {
+      background-image: url(../images/background-hero.png);
+    }
+    
+    .solucao {
+      background-image: url(../images/background-solucao.png);
+    }
+    
+    .pros-contras {
+      background-image: url(../images/background-prosContras.png);
+    }
+    
+    .text-principal {
+      color: #61E786;
+    }
+    
+    .text-secundario {
+      color: #EDFFEC;
+    }
+    
+    .bg-green {
+      background-color: #61E786;
+    }
+    
+    .bg-cinza {
+      background: #48435C;
+    }
+    
+    .bg-roxo {
+      background: #9792E3;
+    }
+    
+    hr {
+      border: 2px solid #61E786;
+    }
+    
+    .background-image {
+      background-color: #282121;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+    }
+    
+    #novidades {
+      height: 80vh;
+    }
+    
+    #confirmar {
+      min-width: 50%;
+    }
+
+    #problema{
+        height: 100vh;
+    }
+    
+    form {
+      border: 2px solid #61E786;
+    }
+    
+    form .dados input {
+      background-color: #48435C;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 3px solid #61E786;
+      color: #61E786;
+    }
+    
+    form h2 {
+      border-bottom: 3px solid #61E786;
+    }
+    
+    form .dados input::-webkit-input-placeholder {
+      color: #61E786;
+    }
+    
+    footer {
+      height: 20vh;
+    }
+
+    @media (max-width: 768px) {
+        .image-app {
+            max-width: 50%;
+        }
+    }
+}
